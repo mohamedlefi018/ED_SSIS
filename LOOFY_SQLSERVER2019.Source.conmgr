@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LOOFY_SQLSERVER2019.Source"
+  DTS:DTSID="{1B3AE6D2-7CEC-4EBE-A2AB-A146D809BE28}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=LOOFY\SQLSERVER2019;Initial Catalog=Source;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Projet_TP_ED_ETL-{1B3AE6D2-7CEC-4EBE-A2AB-A146D809BE28}LOOFY\SQLSERVER2019.Source;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
